@@ -13,9 +13,9 @@ from sklearn.pipeline import Pipeline
 from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
-# -----------------------------
+
 # Config & utils
-# -----------------------------
+
 st.set_page_config(page_title="House Price Predictor", page_icon="🏠", layout="wide")
 RANDOM_SEED = 42
 np.random.seed(RANDOM_SEED)
@@ -91,9 +91,9 @@ def format_dollars(val_100k):
     # Target is in $100k; convert to dollars for display
     return f"${val_100k*100000:,.0f}"
 
-# -----------------------------
+
 # Sidebar: Mode
-# -----------------------------
+
 st.sidebar.header("⚙️ Settings")
 mode = st.sidebar.radio(
     "Mode",
@@ -104,9 +104,9 @@ mode = st.sidebar.radio(
 st.sidebar.markdown("---")
 st.sidebar.caption("Built with PolynomialFeatures and Ridge.")
 
-# -----------------------------
+
 # TRAIN MODE
-# -----------------------------
+
 if mode == "Train model":
     st.title("🏠 House Price Predictor")
     st.write("This trains a Ridge-regression pipeline with polynomial features on the California Housing dataset.")
@@ -182,9 +182,9 @@ if mode == "Train model":
     st.markdown("---")
     st.caption("Tip: Move to **Load model & Predict** to upload CSV and get predictions.")
 
-# -----------------------------
+
 # PREDICT MODE
-# -----------------------------
+
 else:
     st.title("🏠 House Price Predictor — Predict from CSV")
     st.write("Load a saved model and upload a CSV with the required columns to get house price predictions.")
