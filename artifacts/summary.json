@@ -1,0 +1,20 @@
+{
+  "random_seed": 42,
+  "best_degree_for_ridge": 2,
+  "best_alpha": 5.080218046913023,
+  "cv_rmse_mean": 1.1560462030610632,
+  "cv_rmse_std": 0.9869477970341816,
+  "test_rmse": 0.6834854859275201,
+  "test_mae": 0.48472511815036984,
+  "test_r2": 0.6435064035499158,
+  "features": [
+    "MedInc",
+    "HouseAge",
+    "AveRooms",
+    "AveBedrms",
+    "Population",
+    "AveOccup",
+    "Latitude",
+    "Longitude"
+  ]
+}
