@@ -20,11 +20,11 @@ This project demonstrates an end-to-end machine learning workflow for predicting
 
 ## Libraries and Tools of Interest
 
-- [scikit-learn](https://scikit-learn.org/) — Machine learning framework for preprocessing and regression.  
-- [Streamlit](https://streamlit.io/) — Framework for interactive data apps.  
-- [Pandas](https://pandas.pydata.org/) — Data wrangling and CSV handling.  
-- [Matplotlib](https://matplotlib.org/) — Visualization for metrics and tuning curves.  
-- [Joblib](https://joblib.readthedocs.io/) — Model serialization.  
+- [scikit-learn](https://scikit-learn.org/) - Machine learning framework for preprocessing and regression.  
+- [Streamlit](https://streamlit.io/) - Framework for interactive data apps.  
+- [Pandas](https://pandas.pydata.org/) - Data wrangling and CSV handling.  
+- [Matplotlib](https://matplotlib.org/) - Visualization for metrics and tuning curves.  
+- [Joblib](https://joblib.readthedocs.io/) - Model serialization.  
 - Dataset: [California Housing dataset](https://scikit-learn.org/stable/datasets/real_world.html#california-housing-dataset).  
 
 ---
